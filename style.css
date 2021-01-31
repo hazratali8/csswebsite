@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header-area{
+    background-color: blueviolet;
+   
+    
+    
+}
+
+.logo-area{
+    width: 400px;
+}
+.logo-area img{
+    width: 100%;
+    margin: 0px 100px;
+    padding-top: 15px;
+}
+.first-area{
+    width: 45%;
+    background-color: cornflowerblue;
+    height: 300px;
+   
+    margin: 50px 10px;
+    padding: 20px 20px;
+    float: left;
+}
+.first-area h1{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.first-area p{
+    color: white;
+}
+.first-area a input[type=submit]{
+    background-color: red;
+    font-size: 20px;
+    display: block;
+    margin: 50px auto;
+}
+.first-area:hover{
+    background-color: red;
+}
+.second-area{
+    width: 45%;
+    height: 300px;
+    margin: 50px 10px;
+    background-color: cornflowerblue;
+    overflow: hidden;
+    padding: 20px 20px;
+    float: left;
+}
+.second-area h1{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.second-area p{
+    color: white;  
+}
+.second-area a input[type=submit]{
+    background-color: darkgreen;
+    font-size: 20px;
+    display: block;
+    margin: 50px auto;
+}
+.second-area:hover{
+    background-color: #f53b57;
+}
+
+.ab::after{
+    content: "amr shonar bangla ami tomai valo bashi";
+}
+.ab{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+.ab::first-line{
+    background-color: red;
+    color: white;
+}
+.ab::before{
+content: "likha add korte vhule geasilam";
+}
+.ab::first-letter{
+    font-size: 100px;
+    color: #05c46b;
+}
+
+
+    
+    
+
+
+    
